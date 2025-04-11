@@ -15,11 +15,11 @@ env:
   - "API_ID=25698862"                        # Your Telegram API ID
   - "API_HASH=7d7739b44f5f8c825d48cc6787889dbc"  # Your Telegram API HASH
   - "BOT_TOKEN=7615533568:AAF3TfY956Z1YH31HX_CzBvT2oWTcm800xk"  # Get from BotFather
-  - "ADMIN=123456789"                        # Your Telegram User ID
+  - "ADMIN=7019600964"                        # Your Telegram User ID
   - "DB_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net"  # MongoDB URL
   - "FORCE_SUB=YourChannelUsername"          # Without @
-  - "LOG_CHANNEL=-1001234567890"             # Log channel ID
+  - "LOG_CHANNEL=-1002350730053"             # Log channel ID
   - "DB_NAME=your_database_name"             # Your MongoDB DB name
-  - "START_PIC=https://link.to/your/start-pic.jpg"  # URL or local path
-  - "BIN_CHANNEL=-1009876543210"             # Bin channel ID
+  - "START_PIC=https://files.catbox.moe/oijuuz.jpg"  # URL or local path
+  - "BIN_CHANNEL=-1002536563973"             # Bin channel ID
   - "ENVIRONMENT=production"
