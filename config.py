@@ -20,11 +20,10 @@ class Config(object):
     # channels logs
     FORCE_SUB   = os.environ.get("FORCE_SUB", "sakamoto_days_hindi_ongoing") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002536563973"))
-    BIN_CHANNEL = int(os.environ.get("BIN_CHANNEL", " -1002350730053"))
+    BIN_CHANNEL = int(os.environ.get("BIN_CHANNEL", "-1002350730053"))
 
     # wes response configuration     
-    WEBHOOK = bool(os.environ.get("WEBHOOK", True))
-
+    WEBHOOK = os.environ.get("WEBHOOK", "False").lower() == "true"
 
 
 class Txt(object):
