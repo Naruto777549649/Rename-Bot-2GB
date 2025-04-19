@@ -206,13 +206,13 @@ logging.basicConfig(level=logging.INFO, handlers=[logging.FileHandler('logs.txt'
 
 
 
-API_ID = os.environ.get("API_ID", 29593257)
-API_HASH = os.environ.get("API_HASH", "e9a3897c961f8dce2a0a88ab8d3dd843")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7106418611:sjsjkskekek")
-SUPPORT = os.environ.get("SUPPORT", "NandhaSupport")
-UPDATES = os.environ.get("UPDATES", "NandhaBots")
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "NekosBestBot") 
-BOT_URL = f"https://t.me/{BOT_USERNAME}"
+API_ID = os.environ.get("API_ID", 25698862)
+API_HASH = os.environ.get("API_HASH", "7d7739b44f5f8c825d48cc6787889dbc")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7615533568:AAF3TfY956Z1YH31HX_CzBvT2oWTcm800xk")
+SUPPORT = os.environ.get("SUPPORT", "All_anime_shonen_official")
+UPDATES = os.environ.get("UPDATES", "All_anime_shonen_official")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "God_file_renanerbot") 
+BOT_URL = f"https://t.me/God_file_renanerbot"
 PORT = int(os.environ.get("PORT", 8080))
 BIND_ADDRESS = str(os.environ.get("WEB_SERVER_BIND_ADDRESS", "0.0.0.0"))
 
